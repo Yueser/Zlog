@@ -297,3 +297,9 @@ body,
     padding-right: 10px;
     color: black;
     }
+
+    .site_link ul li a:hover{
+        color:white;
+        border:solid 1px rgb(163, 156, 156);
+        background-color: rgb(163, 156, 156);
+    }
