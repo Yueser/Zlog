@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+.box{
+    background-color: aqua;
+    height: 50px;
+    min-width: 800px;
+    width: 60%;
+    margin: 0 auto;
+}
