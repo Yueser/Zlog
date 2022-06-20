@@ -1,0 +1,83 @@
+a {
+    color: grey;
+    /*背景颜色*/
+    text-decoration: none;
+    /*去除文字的下划线*/
+}
+body{
+    margin: 0;
+}
+#head {
+    width: 960px;
+    margin: auto;
+    border-bottom: dotted 1px rgb(0, 0, 0);
+    /*设置了黑色的分界线*/
+    margin-bottom: 10px;
+}
+
+
+.logo_title {
+    float: left;
+}
+
+
+.logo_title h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    /*字体颜色*/
+}
+
+
+.logo_title h2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.navi {
+    float: right;
+}
+
+
+.navi ul {
+    list-style: none;
+    /*去除前面的黑点*/
+    margin-top: 75px;
+}
+
+
+.navi ul li {
+    display: inline-block;
+    /*排列方式，排列到一行*/
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    /*写不写都可以*/
+    margin-right: 20px;
+    /*外填充距离*/
+}
+
+
+.navi ul li a {
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    /*黑色的方框*/
+    border-radius: 6px;
+    /*边角设置弧度*/
+    padding: 4px;
+    /*上下内填充*/
+    padding-left: 14px;
+    /*左内边距*/
+    padding-right: 14px;
+    /*右内边距*/
+}
+
+.navi ul li a:hover {
+    color: white;
+    border: solid 1px rgb(163, 156, 156);
+    background-color: rgb(163, 156, 156);
+}
+
+
+.clear {
+    clear: both;
+}

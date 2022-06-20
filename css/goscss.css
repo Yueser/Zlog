@@ -1,11 +1,14 @@
-body{
-    margin: 0;
-}
+
+a{
+    color: grey;/*背景颜色*/
+    text-decoration: none;/*去除文字的下划线*/
+    }
 
 .box{
     background-color: aqua;
     height: 50px;
-    min-width: 800px;
-    width: 60%;
-    margin: 0 auto;
+    width: 960px;
+    left: 50%;
+    margin-left: -480px;
+    position: fixed;
 }
